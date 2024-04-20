@@ -11,7 +11,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #F9A912;
+  --color-primary: #0d3568;
   --color-secondary: #37373f; }
 
 /* Smooth scroll behavior */
@@ -30,7 +30,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #fabb44;
+  color: #167fff;
   text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,7 +124,7 @@ section {
     color: #fff;
     line-height: 0; }
   .scroll-top:hover {
-    background: #fabb44;
+    background: #167fff;
     color: #fff; }
   .scroll-top.active {
     visibility: visible;
@@ -558,7 +558,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.png") center center;
   background-size: cover;
   padding: 100px 0; }
   @media (min-width: 1365px) {
@@ -674,7 +674,7 @@ section {
     transition: 0.4s;
     border-radius: 50px; }
     .contact .php-email-form button[type="submit"]:hover {
-      background: #fabb44; }
+      background: #167fff; }
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg); }
